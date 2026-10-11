@@ -1,0 +1,10 @@
+.DS_Store
+*.asv
+
+# Input data is not distributed
+data/*
+!data/.gitkeep
+
+# Generated output
+output/**/*.png
+output/**/*.xlsx
